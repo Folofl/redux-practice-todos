@@ -8,6 +8,7 @@ const getVisibleTodos = (todos, filter) => {
 
 const mapStateToProps = (state) => ({
   // TODO
+  value: state
 })
 
 const mapDispatchToProps = {

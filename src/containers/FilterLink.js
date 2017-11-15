@@ -8,6 +8,22 @@ const mapStateToProps = (state, ownProps) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   // TODO
+  setVisibilityFilter: () => dispatch(setVisibilityFilter())
 })
 
 // TODO - connect and export
+
+/*
+export const addTodo = (text) => ({
+  // TODO
+})
+
+export const setVisibilityFilter = (filter) => ({
+  // TODO
+})
+
+export const toggleTodo = (id) => ({
+  // TODO
+})
+
+*/
